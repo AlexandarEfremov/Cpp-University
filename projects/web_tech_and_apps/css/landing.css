@@ -65,7 +65,7 @@ main nav .right-nav,
 main nav .left-nav {
 	display: flex;
 	text-decoration: none;
-	gap: 0.6em;
+	gap: 0.9em;
 }
 
 main nav .left-nav a{
@@ -97,4 +97,22 @@ main section.advert p {
 	font-weight: 700;
 }
 
+main .main-content {
+	height: 50em;
+	background: url("/media/image.png");
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+main .main-content .head-button {
+	margin-top: 2.5em;
+}
+
+main .main-content .head-button h1, 
+main .main-content .head-button h2,
+main .main-content .head-button h2 {
+	text-align: center;
+}
 /* MAIN END*/
