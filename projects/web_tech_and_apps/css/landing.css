@@ -75,6 +75,10 @@ main nav .left-nav a{
 	font-weight: 600;
 }
 
+main nav .left-nav a:hover {
+	text-decoration: underline;
+}
+
 main nav .right-nav i {
 	color: #1A462A;
 }
@@ -83,7 +87,17 @@ main nav .right-nav .circle {
 	padding: 0.8em;
 	border-radius: 50%;
 	background-color: #9CD395;
+	border: 2px solid transparent;
 }
+
+main nav .right-nav .circle:hover {
+	background-color: #9CD395;
+	cursor: pointer;
+	transition: 0.5;
+	border: 2px solid #1A462A;
+	transition: 0.3s;
+}
+
 
 main section.advert {
 	background-color: #DB8ADA;
@@ -142,6 +156,10 @@ main .main-content .head-button a {
 	border-radius: 5px;
 	border: 1px solid #694A08;
 }
+
+main .main-content .head-button a:hover {
+	text-decoration: underline;
+}
 /* MAIN END*/
 
 
@@ -176,10 +194,13 @@ footer .footer-top-cont .footer-website a {
 
 footer .footer-top-cont .footer-contact p i {
 	line-height: 2.2em;
+	margin-right: 0.6em;
 }
 
-footer .footer-top-cont .footer-contact p i {
-	margin-right: 0.6em;
+footer .footer-top-cont .footer-support a:hover,
+footer .footer-top-cont .footer-information a:hover,
+footer .footer-top-cont .footer-website a:hover {
+	text-decoration: underline;
 }
 
 footer .footer-top-cont .bold-p {
