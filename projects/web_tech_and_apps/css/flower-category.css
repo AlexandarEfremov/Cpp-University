@@ -71,12 +71,26 @@ section .category-cont .sub-container img {
 	object-fit: cover;
 }
 
-section .category-cont .sub-container .flora {
-	font-size: 1.2em;
-	font-weight: 700;
-}
-
 section .category-cont .sub-container a:hover {
 	opacity: 0.6;
+}
+
+section .category-cont .sub-container .flower-name {
+	background-color: #1A462A;
+	padding: 1.1em 0.6em;
+}
+
+
+section .category-cont .sub-container .flower-name p {
+	color: #FFF;
+	padding 1 0.6em;
+	display: block;
+	text-align: center;
+}
+
+section .category-cont .sub-container .flower-name a {
+	text-align: center;
+	color: #5B92E5;
+	display: block;
 }
 
