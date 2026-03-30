@@ -6,7 +6,6 @@
 main {
 	background-color: #1A462A;
 	padding: 0.8em 4em;
-	padding-bottom: 80em;
 }
 
 main .welcome-cont {
@@ -26,71 +25,92 @@ main .welcome-cont .head-content h1 {
 
 main .head-content {
 	position: relative;
-	left: 1em;
+	left: 3.5em;
 }
 
 main .head-content .flower-cat {
 	color: #4CAF50;
 }
 
+
+/* CATEGORY SECTION */
+
 section .category-cont {
 	width: 100%;
-	position: absolute;
 	background-color: #BAD7B6;
-	border-top-right-radius: 65%;
-	border-top-left-radius: 65%;
-	top: 25em;
 }
 
 section .category-cont p.cat {
 	text-align: center;
-	padding: 2em;
+	padding: 1.3em 2em 1.3em 2em;
 	font-size: 2.4em;
 	font-size: 900;
 }
 
-section .category-cont .container {
-	background-color: red;
-	width: 18em;
-	height: 18em;
-}
-
-section .category-cont .sub-container {
+.sub-container {
 	display: flex;
 	flex-wrap: wrap;
 	width: 60%;
+	gap: 2em;
 	margin: auto;
-	justify-content: center;
-	padding-bottom: 3em;
-	gap: 4em;
+	justify-content: space-between;
+	padding-bottom: 4em;
 }
 
-section .category-cont .sub-container img {
-	width: 100%;
-	height: 100%;
-	object-fit: cover;
+.flower-container {
+	width: 18em;
+	box-shadow: 5px 5px 15px -3px #000000;
 }
 
-section .category-cont .sub-container a:hover {
-	opacity: 0.6;
+.flower-container .flower-image {
+	height: 18em;
 }
 
-section .category-cont .sub-container .flower-name {
+
+.flower-container .flower-name {
 	background-color: #1A462A;
-	padding: 1.1em 0.6em;
 }
 
-
-section .category-cont .sub-container .flower-name p {
-	color: #FFF;
-	padding 1 0.6em;
-	display: block;
+.flower-container .flower-name p,
+.flower-container .flower-name a {
 	text-align: center;
-}
-
-section .category-cont .sub-container .flower-name a {
-	text-align: center;
-	color: #5B92E5;
 	display: block;
 }
 
+.flower-container .flower-name p {
+	color: #BAD7B6;
+	font-size: 1.2em;
+	padding: 0.6em 0;
+}
+
+.flower-container .flower-name a {
+	color: #80A5D8;
+	padding-bottom: 1em;
+}
+
+.flower-container .flower-price {
+	background-color: #FFF;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding: 1.3em;
+}
+
+.flower-container .flower-price span {
+	font-size: 1.3em;
+}
+
+.flower-container .flower-price span:last-of-type {
+	font-size: 1.6em;
+	background-color: #FFA200;
+	padding: 0 1.2em;
+	border-radius: 5px;
+	box-shadow: 3px 3px 10px -3px #000000;
+}
+
+.flower-container .flower-price span:last-of-type:hover {
+	cursor: pointer;
+	background-color: #B37100;
+	color: white;
+	transition: 0.3s;
+}
